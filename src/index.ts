@@ -141,4 +141,8 @@ app.get("/chart/bar.svg", (req: any, res: any) => {
   res.send(render(opts, req.query.width, req.query.height));
 });
 
+app.get("/", (req: any, res: any) => {
+  res.redirect("https://github.com/sideroad/chartimg");
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
