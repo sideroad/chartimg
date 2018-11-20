@@ -119,6 +119,7 @@ app.get("/chart/line.svg", (req: any, res: any) => {
       }
     }
   };
+  res.set("Content-Type", "image/svg+xml");
   res.send(render(opts, req.query.width, req.query.height));
 });
 
@@ -138,6 +139,7 @@ app.get("/chart/bar.svg", (req: any, res: any) => {
       }
     }
   };
+  res.set("Content-Type", "image/svg+xml");
   res.send(render(opts, req.query.width, req.query.height));
 });
 
