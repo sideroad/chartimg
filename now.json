@@ -1,1 +1,5 @@
-{}
+{
+  "version": 2,
+  "name": "nodejs",
+  "builds": [{ "src": "bin/*.js", "use": "@now/node" }]
+}
