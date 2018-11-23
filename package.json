@@ -5,8 +5,8 @@
   "description": "Chart.js image application.",
   "main": "bin/index.js",
   "scripts": {
-    "build": "webpack-cli --mode=production --config webpack.config.js",
-    "build:dev": "webpack-cli --mode=development --config webpack.config.js",
+    "build-prod": "webpack-cli --mode=production --config webpack.config.js",
+    "build-dev": "webpack-cli --mode=development --config webpack.config.js",
     "start": "node bin/index.js",
     "test": "echo test"
   },
