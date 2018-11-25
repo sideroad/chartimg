@@ -5,7 +5,7 @@
   "description": "Chart.js image application.",
   "main": "bin/index.js",
   "scripts": {
-    "build-prod": "webpack-cli --mode=production --config webpack.config.js",
+    "build": "webpack-cli --mode=production --config webpack.config.js",
     "build-dev": "webpack-cli --mode=development --config webpack.config.js",
     "start": "node bin/index.js",
     "test": "echo test"
@@ -17,7 +17,7 @@
     "Canvas",
     "html5"
   ],
-  "author": "shellyln",
+  "author": "sideroad",
   "license": "ISC",
   "dependencies": {
     "chart.js": "^2.7.2",
